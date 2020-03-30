@@ -6,8 +6,11 @@
 */
 
 #include <iostream>
-
+#include <thread>
+#include <vector>
 using namespace std;
+
+#include <stdio.h>
 
 wstring tetromino[7];
 int nFieldWidth = 12;
